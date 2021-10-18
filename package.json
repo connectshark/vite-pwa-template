@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "https-preview": "serve dist"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.6.0",
     "@vue/compiler-sfc": "^3.0.5",
+    "https-localhost": "^4.7.0",
     "sass": "^1.38.2",
     "vite": "^2.5.1"
   }
