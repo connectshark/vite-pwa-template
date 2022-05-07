@@ -11,6 +11,7 @@ export default defineConfig({
     VitePWA({
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
+        start_url: "/",
         name: "\u8766\u82f1\u96c4",
         short_name: "\u8766\u82f1\u96c4",
         icons: [
